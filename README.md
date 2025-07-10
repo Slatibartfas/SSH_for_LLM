@@ -98,7 +98,7 @@ In your OpenWebUI instance, navigate to the `data` volume. You can find its loca
 
 The final path should look something like: `.../_data/open-webui/data/tools/ssh_server_manager/tool.py`
 
-ALTERNATIVE: Use the UI to add a Tool in the Workspace section, using the ssh_server_manager.py content
+ALTERNATIVE: Use the UI to add a Tool in the Workspace section, using the [main script](ssh_server_manager.py) content
 
 #### **2b. Place the SSH Private Key**
 Place the **private** SSH key (e.g., `id_rsa` or `id_ed25519`) that corresponds to the public key you authorized in a location accessible to OpenWebUI. A recommended place is `.../_data/open-webui/data/keys/id_rsa`.
